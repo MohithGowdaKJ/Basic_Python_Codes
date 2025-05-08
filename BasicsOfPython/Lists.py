@@ -3,7 +3,7 @@
 2. In list we can store Dupicate Values.
 3. List is an ordered collection of data: Order of 
    insertion will be remain as it is in the output.
-4. Lists are Mutable: Once declare the can be Modified.
+4. Lists are Mutable: Once declare they can be Modified.
 """
 li = [1,22,"Mohith",'A',True,22]
 print(li,type(li))

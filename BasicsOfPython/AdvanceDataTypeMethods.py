@@ -30,7 +30,7 @@ print(tup4)
 tup5 = tuple(range(1,11))
 print(tup5)
 
-# Tuple will always accept Iterable Object
+# Set will always accept Iterable Object
 set1 = set((10, 20, 30, 40))
 print(set1)
 

@@ -1,5 +1,6 @@
 # Strings are immutable that means if the variables are declared 
 # after that if we try to modify it, the new object will be created
+# once Strings are declared we cannot modify it, we need to create a new String to alter it. 
 s1 = 'Mohith'
 s1.upper()
 print(s1) # "Mohith"

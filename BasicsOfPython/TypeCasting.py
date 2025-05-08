@@ -1,4 +1,4 @@
-# if str has integer value value then conversion is allowed
+# if str has integer value then conversion is allowed
 a = 30
 print(a,type(a))
 b = int(a)
@@ -8,7 +8,7 @@ print(b,type(b))
 x = 'Kod'
 print(x,type(x))
 y = int(x) 
-print(y,type(y)) # Error
+# print(y,type(y)) # Error
 
 p = float(input("Enter float type data"))
 print(p,type(p))
@@ -18,13 +18,13 @@ print(p,type(p))
 q = 12
 print(q,type(q))
 q = bool(q)
-print(q,type(q)) #true
+print(q,type(q)) #True
 m = 'jfj'
 print(m,type(m))
 m = bool(m)
-print(m,type(m)) #true
+print(m,type(m)) #True
 n = ''
 print(n,type(n))
 n = bool(n)
-print(n,type(n)) #0
+print(n,type(n)) # False
 
